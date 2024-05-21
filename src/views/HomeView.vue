@@ -1,5 +1,6 @@
 <template>
   <form>
-    <input type="text">
+    <label for="valor">Valor</label>
+    <input type="text" name="valor" id="valor">
   </form>
 </template>
