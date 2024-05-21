@@ -7,7 +7,7 @@
 <style lang="less" scoped>
 footer {
     width: 100%;
-    background-color: #da532c;
+    background-color: var(--primary-color);
     padding: 10px;
 
     p {
@@ -15,8 +15,7 @@ footer {
         text-align: center;
 
         a {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
+            color: white;
         }
     }
 }

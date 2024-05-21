@@ -9,7 +9,7 @@
 <style lang="less" scoped>
 header {
     width: 100%;
-    background-color: #da532c;
+    background-color: var(--primary-color);
     padding: 10px;
 
     h1 {
