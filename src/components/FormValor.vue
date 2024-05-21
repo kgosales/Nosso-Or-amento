@@ -30,6 +30,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 20px;
 
     label {
         width: 100%;
@@ -43,7 +44,6 @@ form {
         padding: 10px;
         border: none;
         border-bottom: 3px solid var(--secondary-color);
-        margin-bottom: 20px;
         font-size: 42px;
 
         &:focus {
@@ -54,7 +54,6 @@ form {
     .checkbox-box {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
 
         input {
             margin-right: 10px;
@@ -62,7 +61,8 @@ form {
     }
 
     button {
-        width: 70%;
+        width: 80%;
+        max-width: 400px;
         padding: 10px;
         border: none;
         border-radius: 25px;

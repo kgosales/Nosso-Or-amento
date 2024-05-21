@@ -72,4 +72,15 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  main {
+    table {
+      td {
+        font-size: 24px;
+      }
+    }
+  }
+}
 </style>
